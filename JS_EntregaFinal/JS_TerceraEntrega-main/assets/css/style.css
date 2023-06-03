@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: rgb(148, 174, 119);
+    color: aliceblue;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.logo{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+section .taza{
+    margin: 40px;
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(168, 192, 175);
+    border-radius: 20px;
+}
+.taza button{
+    background-color: beige;
+}
+
+.taza button p{
+    font-size: larger;
+    padding: 10px;
+    
+   
+}
+.cambio{
+        margin: 20px;
+}
+
+.container div input{
+    
+    margin: 5px;
+    background-color: rgb(174, 199, 186);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}

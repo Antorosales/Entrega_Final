@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Conversor de Moneda</title>
+</head>
+<body>
+        <Header>
+            <h1>Conversor de Moneda Online</h1>
+        </Header>
+        <div class="logo"> 
+            <img src="assets/img/calculadora.png" alt="" >
+        </div>
+    
+    <section>
+        <div class="taza">
+            <button class="btn" id="taza">
+                <p>Valor de Cambio:</p>
+            </button>
+            <div class="cambio" id="cambio"></div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <div class="moneda">
+            <select id="moneda-uno">
+                
+                <option value="CLP">CLP</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="USD">USD</option>
+            </select>
+            <!-- Ingreso de valor 1 -->
+            <input type="number" id="cantidad-uno" placeholder="0"  value="1" >
+
+        </div>
+      
+        <div class="moneda">
+            <select id="moneda-dos">
+                <option value="CLP">CLP</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" id="cantidad-dos" placeholder="0"  >
+        </div>
+    </div>
+
+<script src="assets/js/convertidor.js"></script>
+</body>
+</html>
